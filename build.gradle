@@ -10,6 +10,9 @@ buildscript {
     dependencies {
         // Add the dependency for the Google services Gradle plugin
         classpath 'com.google.gms:google-services:4.3.14'
+        // DONE
+        classpath 'com.android.tools.build:gradle:8.1.0'  // Kiểm tra phiên bản mới nhất
+        classpath 'com.google.gms:google-services:4.3.10' // Plugin Firebase
     }
 }
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
